@@ -1,0 +1,25 @@
+{
+  "pages": [
+    "pages/guide/guide",    
+    "pages/index/index",
+    "pages/logs/logs"
+  ],
+  "window": {
+    "defaultTitle": "My App"
+  },
+  "tabBar": {
+    "textColor": "#333",
+    "selectedColor": "#49a9ee",
+    "backgroundColor": "#ffffff",
+    "items": [
+      {
+        "pagePath": "pages/index/index",
+        "name": "首页"
+      },
+      {
+        "pagePath": "pages/logs/logs",
+        "name": "日志"
+      }
+    ]
+  }
+}
